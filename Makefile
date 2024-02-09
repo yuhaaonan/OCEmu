@@ -1,4 +1,4 @@
-ASSETS=https://github.com/MightyPirates/OpenComputers/src/main/resources/assets/opencomputers
+ASSETS=https://github.com/MightyPirates/OpenComputers/tree/master-MC1.7.10/src/main/resources/assets/opencomputers
 
 all: src/lua src/loot src/font.hex
 
