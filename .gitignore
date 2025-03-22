@@ -1,8 +1,5 @@
 extras/
 src/extras/
-src/lua/
-src/loot/
-src/font.hex
 src/tmpfs/
 log.txt
 src/*.dll
