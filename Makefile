@@ -3,15 +3,13 @@ ASSETS=https://github.com/MightyPirates/OpenComputers/tree/master-MC1.7.10/src/m
 all: src/lua src/loot src/font.hex
 
 src/lua:
-	svn export $(ASSETS)/lua src/lua
+	echo "svn export $(ASSETS)/lua src/lua"
 
 src/loot:
-	svn export $(ASSETS)/loot src/loot
+	echo "svn export $(ASSETS)/loot src/loot"
 
 src/font.hex:
-	svn export $(ASSETS)/font.hex src/font.hex
+	echo "svn export $(ASSETS)/font.hex src/font.hex"
 
 clean:
-	rm -rf src/lua
-	rm -rf src/loot
-	rm -f src/font.hex
+	echo "rm -rf src/lua"
